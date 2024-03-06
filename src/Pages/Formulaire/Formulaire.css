@@ -1,0 +1,45 @@
+.img_books {
+    margin-left: -100px;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.cards_rese {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.infos_book_reserv {
+    display: flex;
+    align-items: center;
+}
+
+.btn_email_reser {
+    width: 100%;
+    border-radius: 10px;
+    padding: 9px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #CCFBF1 !important;
+    transition: .5s;
+}
+
+.btn_email_reser:hover {
+    background-color: #aaf3e3 !important;
+    color: white;
+}
+
+.Go_Back {
+    position: relative;
+    top: -75px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.Go_Back:hover {
+    transform: translateX(-5px);
+}

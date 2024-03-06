@@ -1,0 +1,31 @@
+.my_div {
+    background-color: #CCFBF1;
+}
+
+.btn_search {
+    margin-top: 25px;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.btn_search i {
+    font-size: 1.4rem;
+}
+
+.text {
+    animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}

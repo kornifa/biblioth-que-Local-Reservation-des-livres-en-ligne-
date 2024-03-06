@@ -1,0 +1,45 @@
+.avis .swiper {
+    width: 100%;
+}
+
+.avis .swiper-slide {
+    width: 300px;
+    height: 300px;
+}
+
+.stars {
+    padding: 20px 10px;
+    color: yellow;
+}
+
+.stars i {
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+.Avis__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4rem;
+    border: 2px solid black;
+}
+
+.avis {
+    cursor: pointer;
+}
+
+.infos_client p {
+    font-weight: 300;
+}
+
+.infos_client h3 {
+    font-weight: 600;
+}
+
+.Avis__description {
+    text-align: justify;
+}
+
+.Avis_div {
+    padding: 0 15px;
+}

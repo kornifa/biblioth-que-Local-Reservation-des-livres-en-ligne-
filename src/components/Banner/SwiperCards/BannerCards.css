@@ -1,0 +1,55 @@
+.banner .swiper {
+    width: 280px;
+    height: 360px;
+    margin-right: 70px;
+    animation: slide-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(-100);
+    }
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+.banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.banner .swiper-slide:nth-child(1n) {
+    background-image: url('../../../Assets/dernier_jour_d\'un_condamné.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .swiper-slide:nth-child(2n) {
+    background-image: url('../../../Assets/images\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .swiper-slide:nth-child(3n) {
+    background-image: url('../../../Assets/téléchargement.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .swiper-slide:nth-child(4n) {
+    background-image: url('../../../Assets/téléchargement\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .swiper-slide:nth-child(5n) {
+    background-image: url('../../../Assets/téléchargement\ \(3\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

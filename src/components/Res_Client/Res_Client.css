@@ -1,0 +1,47 @@
+.Res_Client .swiper {
+    width: 100%;
+    height: 500px;
+    background: #000;
+    z-index: -1;
+}
+
+.Res_Client .swiper-slide {
+    font-size: 18px;
+    color: black;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 80px;
+}
+
+.Res_Client .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../Assets/abstract-blur-defocused-bookshelf-library.jpg');
+}
+
+.Res_Client .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.Res_Client .swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.Res_Client .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.Res_Client .SwiperSlide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

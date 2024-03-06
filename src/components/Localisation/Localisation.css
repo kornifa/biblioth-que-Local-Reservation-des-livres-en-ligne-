@@ -1,0 +1,34 @@
+.loca {
+    margin: 30px auto;
+}
+
+.bx {
+    font-size: 1.5rem;
+}
+
+.loca h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.loca p {
+    font-weight: 600;
+}
+
+.loca span {
+    font-weight: 100;
+    margin-left: 30px;
+}
+
+.map {
+    height: 65vh;
+}
+
+.map-exa {
+    border-radius: 10px;
+}
+
+.infos {
+    padding-top: 5%;
+}
